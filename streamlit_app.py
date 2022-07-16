@@ -5,7 +5,7 @@ from plotly import graph_objs as go
 from jugaad_data.nse import stock_df, bhavcopy_save
 from datetime import date
 import pandas as pd
-import yfinance as yf
+import yfinance as y
 
 #  SETTING TODAY DATE
 today = date.today()
